@@ -1,7 +1,9 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04",
     "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {},
+        "ghcr.io/electrocucaracha/pkg-mgr_scripts/kubectl:latest": {}
+        "ghcr.io/electrocucaracha/pkg-mgr_scripts/kind:latest": {}
     },
     "hostRequirements": {
         "cpus": 4,
